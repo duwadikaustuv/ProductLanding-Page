@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/6a32548050.js" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div class="container">
+        <div class="nav-container">
+            <header id="header">
+                <nav id="nav-bar">
+                    <div class="logo">
+                        <img id="header-img" src="https://baltra.in/img/baltra1.png" width="125" height="50">
+                    </div>
+                    <input type="checkbox" id="menu-toggle">
+                    <label for="menu-toggle" class="menu-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <ul class="navigation">
+                        <li><a href="#product" class="nav-link">Product</a></li>
+                        <li><a href="#features" class="nav-link">Features</a></li>
+                        <li><a href="#how-it-works" class="nav-link">How it works</a></li>
+                        <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div id="form-area">
+            <h1>Sip in <span class="caveat-yellow">Style</span> SAVOUR <span class="caveat">in Comfort</span></h1>
+            <form id="form">
+                <div class="form-group">
+                    <p class="text">Register Here:</p>
+                    <input type="email" name="email" id="email" placeholder="Please enter your email">
+                    <input type="submit" id="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <section id="product">
+            <div class="product-description">
+                <h1 id="product-heading">Details:</h1>
+                <p id="bottle-details">Baltra 1 L Slimline Steel Flask BSL 204 enables you to keep hot water and it is easy to clean.
+                    <ul id="product-details">
+                        <li>Double walled stainless steel vacuum insulated flask inner liner wrapped with foil</li>
+                        <li>keeps hot & cold for 12 hours</li>
+                        <li>Stainless Steel Sports Bottle</li>
+                        <li>Made with Stainless Steel 304</li>
+                        <li>18/8 food grade materials</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="product-image">
+                <img id="bottle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCbNs-nSM5GTOM5YimU4p77-32zJCtTGgiOA&s">
+            </div>
+        </section>
+        <section id="features">
+            <h3 class="feature-points"><span class="material-symbols-outlined h3-icon">local_fire_department</span>High quality</h3>
+            <p class="feature-points">Our products use high quality raw materials that are high quality and ensure the product's longevity.</p>
+            
+            <h3 class="feature-points"><span class="material-symbols-outlined h3-icon">local_shipping</span>On time Delivery</h3>
+            <p class="feature-points">As we value customers time we try our best to guarantee that the delivery is on time.</p>
+            
+            <h3 class="feature-points"><span class="material-symbols-outlined h3-icon">battery_full_alt</span>Quality Assurance</h3>
+            <p class="feature-points">Ensurance that the products are not damaged whenever we deliver them to you.</p>
+        </section>
+        <section id="how-it-works">
+            <h2>How It Works:</h2>
+            <div class="video-container">
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/gZcPvew6gXo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="pricing">
+            <h2>Pricing</h2>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <p>Rs.999</p>
+                    <ul>
+                        <li>No strap</li>
+                        <li>No decoration</li>
+                        <li>No protective cover</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Standard</h3>
+                    <p>Rs. 1499</p>
+                    <ul>
+                        <li>No strap</li>
+                        <li>With decoration</li>
+                        <li>No protective cover</li>
+                    </ul>
+                </div>
+                <div class="pricing-card">
+                    <h3>Premium</h3>
+                    <p>Rs. 1999</p>
+                    <ul>
+                        <li>With strap</li>
+                        <li>With decoration</li>
+                        <li>With protective cover</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
